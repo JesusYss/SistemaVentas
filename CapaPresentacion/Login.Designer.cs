@@ -31,8 +31,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtclave = new System.Windows.Forms.TextBox();
+            this.txtdocumento = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.btningresar = new FontAwesome.Sharp.IconButton();
@@ -75,22 +75,22 @@
             this.iconPictureBox1.TabIndex = 2;
             this.iconPictureBox1.TabStop = false;
             // 
-            // textBox1
+            // txtclave
             // 
-            this.textBox1.Location = new System.Drawing.Point(428, 178);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.PasswordChar = '*';
-            this.textBox1.Size = new System.Drawing.Size(281, 22);
-            this.textBox1.TabIndex = 3;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.txtclave.Location = new System.Drawing.Point(428, 178);
+            this.txtclave.Name = "txtclave";
+            this.txtclave.PasswordChar = '*';
+            this.txtclave.Size = new System.Drawing.Size(281, 22);
+            this.txtclave.TabIndex = 3;
+            this.txtclave.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // textBox2
+            // txtdocumento
             // 
-            this.textBox2.Location = new System.Drawing.Point(428, 110);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(281, 22);
-            this.textBox2.TabIndex = 4;
-            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.txtdocumento.Location = new System.Drawing.Point(428, 110);
+            this.txtdocumento.Name = "txtdocumento";
+            this.txtdocumento.Size = new System.Drawing.Size(281, 22);
+            this.txtdocumento.TabIndex = 4;
+            this.txtdocumento.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // label3
             // 
@@ -115,6 +115,7 @@
             // btningresar
             // 
             this.btningresar.BackColor = System.Drawing.Color.RoyalBlue;
+            this.btningresar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btningresar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btningresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btningresar.ForeColor = System.Drawing.Color.White;
@@ -122,7 +123,7 @@
             this.btningresar.IconColor = System.Drawing.Color.White;
             this.btningresar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btningresar.IconSize = 21;
-            this.btningresar.Location = new System.Drawing.Point(428, 267);
+            this.btningresar.Location = new System.Drawing.Point(427, 269);
             this.btningresar.Name = "btningresar";
             this.btningresar.Size = new System.Drawing.Size(130, 28);
             this.btningresar.TabIndex = 7;
@@ -135,6 +136,7 @@
             // btncancelar
             // 
             this.btncancelar.BackColor = System.Drawing.Color.Firebrick;
+            this.btncancelar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btncancelar.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.btncancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btncancelar.ForeColor = System.Drawing.Color.White;
@@ -142,7 +144,7 @@
             this.btncancelar.IconColor = System.Drawing.Color.White;
             this.btncancelar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btncancelar.IconSize = 21;
-            this.btncancelar.Location = new System.Drawing.Point(579, 267);
+            this.btncancelar.Location = new System.Drawing.Point(578, 269);
             this.btncancelar.Name = "btncancelar";
             this.btncancelar.Size = new System.Drawing.Size(130, 28);
             this.btncancelar.TabIndex = 8;
@@ -162,8 +164,8 @@
             this.Controls.Add(this.btningresar);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtdocumento);
+            this.Controls.Add(this.txtclave);
             this.Controls.Add(this.iconPictureBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -183,8 +185,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private FontAwesome.Sharp.IconPictureBox iconPictureBox1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtclave;
+        private System.Windows.Forms.TextBox txtdocumento;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private FontAwesome.Sharp.IconButton btningresar;
